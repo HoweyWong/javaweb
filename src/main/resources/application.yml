@@ -1,0 +1,15 @@
+spring:
+  main:
+    banner-mode: "off"
+
+sync:
+  demo-data-enabled: true
+  scheduling:
+    enabled: true
+    fixed-delay: 30s
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "health,info"
